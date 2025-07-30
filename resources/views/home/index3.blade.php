@@ -1,5 +1,5 @@
 @extends('layouts.layoutStyleThree')
-@section('title', 'Home Three || tecture || tecture Laravel Template')
+@section('title', 'Inicio || Los Arcos || Salón de Fiestas')
 @push('styles')
     <link rel="stylesheet" href="{{ asset('assets/css/module-css/contact.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/module-css/before-after.css') }}">
@@ -9,8 +9,7 @@
 @section('content')
     <x-strickyHeaderTwo />
     <!-- /.stricky-header -->
-
-
+    
     <!--Main Slider Three Start-->
     <section class="main-slider-three">
         <ul class="list-unstyled main-slider-three__contact-list">
@@ -19,7 +18,7 @@
                     <i class="fas fa-envelope"></i>
                 </div>
                 <div class="text">
-                    <p><a href="mailto:needhelp@company.com">needhelp@company.com</a></p>
+                    <p><a href="mailto:alexvara@live.com.mx">alexvara@live.com.mx</a></p>
                 </div>
             </li>
             <li>
@@ -27,66 +26,59 @@
                     <i class="fas fa-phone"></i>
                 </div>
                 <div class="text">
-                    <p><a href="tel:0012346823705"> 00 (1234) 682 3705</a></p>
+                    <p><a href="tel:7131000994">713 100 0994</a></p>
                 </div>
             </li>
             <li>
                 <div class="main-slider-three__social">
                     <a href="#"><span class="fab fa-facebook-f"></span></a>
                     <a href="#"><span class="fab fa-twitter"></span></a>
-                    <a href="#"><span class="fab fa-vine"></span></a>
                     <a href="#"><span class="fab fa-instagram"></span></a>
+                    <a href="#"><span class="fab fa-whatsapp"></span></a>
                 </div>
             </li>
         </ul>
         <div class="container-full">
             <div class="main-slider-three__slider">
                 <div class="row">
-
                     <div class="col-xl-4 col-lg-4 col-md-5">
                         <div class="main-slider-three__left">
                             <div class="swiper-container" id="main-slider-three__thumb">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
                                         <div class="main-slider-three__content-one">
-                                            <h2 class="main-slider-three__title-one">Interior</h2>
-                                            <h3 class="main-slider-three__title-two">Design Make Dream</h3>
-                                            <p class="main-slider-three__price">$500</p>
+                                            <h2 class="main-slider-three__title-one">Salón</h2>
+                                            <h3 class="main-slider-three__title-two">Bodas Elegantes</h3>
+                                            <p class="main-slider-three__price">$15,000</p>
                                             <div class="main-slider-three__btn-box">
-                                                <a href="{{ route('contact') }}" class="thm-btn main-slider-three__btn">Get
-                                                    In
-                                                    Touch
+                                                <a href="{{ route('contact') }}" class="thm-btn main-slider-three__btn">Cotizar
                                                     <span class="icon-up-right-arrow"></span> </a>
                                             </div>
-                                            <h3 class="main-slider-three__title-three">Design</h3>
+                                            <h3 class="main-slider-three__title-three">Los Arcos</h3>
                                         </div>
                                     </div><!-- /.swiper-slide -->
                                     <div class="swiper-slide">
                                         <div class="main-slider-three__content-one">
-                                            <h2 class="main-slider-three__title-one">Interior</h2>
-                                            <h3 class="main-slider-three__title-two">Living Room Design</h3>
-                                            <p class="main-slider-three__price">$800</p>
+                                            <h2 class="main-slider-three__title-one">Fiestas</h2>
+                                            <h3 class="main-slider-three__title-two">XV Años Especiales</h3>
+                                            <p class="main-slider-three__price">$12,000</p>
                                             <div class="main-slider-three__btn-box">
-                                                <a href="{{ route('contact') }}" class="thm-btn main-slider-three__btn">Get
-                                                    In
-                                                    Touch
+                                                <a href="{{ route('contact') }}" class="thm-btn main-slider-three__btn">Cotizar
                                                     <span class="icon-up-right-arrow"></span> </a>
                                             </div>
-                                            <h3 class="main-slider-three__title-three">Design</h3>
+                                            <h3 class="main-slider-three__title-three">Los Arcos</h3>
                                         </div>
                                     </div><!-- /.swiper-slide -->
                                     <div class="swiper-slide">
                                         <div class="main-slider-three__content-one">
-                                            <h2 class="main-slider-three__title-one">Interior</h2>
-                                            <h3 class="main-slider-three__title-two">Stunning Interior Design</h3>
-                                            <p class="main-slider-three__price">$500</p>
+                                            <h2 class="main-slider-three__title-one">Eventos</h2>
+                                            <h3 class="main-slider-three__title-two">Celebraciones Familiares</h3>
+                                            <p class="main-slider-three__price">$8,000</p>
                                             <div class="main-slider-three__btn-box">
-                                                <a href="{{ route('contact') }}" class="thm-btn main-slider-three__btn">Get
-                                                    In
-                                                    Touch
+                                                <a href="{{ route('contact') }}" class="thm-btn main-slider-three__btn">Cotizar
                                                     <span class="icon-up-right-arrow"></span> </a>
                                             </div>
-                                            <h3 class="main-slider-three__title-three">Design</h3>
+                                            <h3 class="main-slider-three__title-three">Los Arcos</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -102,7 +94,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-xl-8 col-lg-8 col-md-7">
                         <div class="main-slider-three__right">
                             <div class="main-slider-three__main-content">
@@ -143,7 +134,7 @@
         </div>
     </section>
     <!--Main Slider Three End-->
-
+    
     <!--About Three Start -->
     <section class="about-three">
         <div class="about-three__shape1">
@@ -162,20 +153,20 @@
                 <div class="col-xl-6">
                     <div class="about-three__left">
                         <div class="section-title text-left sec-title-animation animation-style2">
-                            <h2 class="section-title__title title-animation">Welcome To About Us</h2>
+                            <h2 class="section-title__title title-animation">Bienvenidos a Los Arcos</h2>
                         </div>
-                        <p class="about-three__text">Arrangements are made to transport cargo by sea to meet
-                            customers’ international transpor tation needs.the spaces and places we imagine and
-                            envision for our clients. To those wanting to make an impact with design.</p>
+                        <p class="about-three__text">Desde 2014, nos consolidamos como el salón de eventos que brinda 
+                            instalaciones acondicionadas, suficientes y adecuadas al tipo de servicio que se contrate, 
+                            con seguridad y diversidad en un ambiente familiar.</p>
                         <ul class="about-three__points-list list-unstyled">
                             <li>
                                 <div class="icon">
                                     <span class="icon-workstations"></span>
                                 </div>
                                 <div class="content">
-                                    <h3>Evolve Space Designs</h3>
-                                    <p>It is a long established fact that a reader will be distracted by<br> the
-                                        readable hkljklkl.</p>
+                                    <h3>Capacidad 280 Personas</h3>
+                                    <p>Amplio salón de 480 m² con estructura colonial<br> y rústica, 
+                                        perfecto para eventos grandes.</p>
                                 </div>
                             </li>
                             <li>
@@ -183,14 +174,14 @@
                                     <span class="icon-social-media-marketing"></span>
                                 </div>
                                 <div class="content">
-                                    <h3>Eden Home Styling</h3>
-                                    <p>It is a long established fact that a reader will be distracted by <br>the
-                                        readable hkljklkl.</p>
+                                    <h3>Servicio Integral</h3>
+                                    <p>Renta de salón, mobiliario, banquetes y personal<br> de servicio 
+                                        especializado para tu evento.</p>
                                 </div>
                             </li>
                         </ul>
                         <div class="about-three__btn-box">
-                            <a href="{{ route('about') }}" class="thm-btn about-three__btn">More Details <span
+                            <a href="{{ route('about') }}" class="thm-btn about-three__btn">Conocer Más <span
                                     class="icon-up-right-arrow"></span> </a>
                         </div>
                     </div>
@@ -200,13 +191,12 @@
                         <div class="about-three__img">
                             <img src="{{ asset('assets/images/resources/about-three-img-1.jpg') }}" alt="">
                             <div class="about-three__experience-box">
-                                <h3 class="about-three__experience-title">Funfacts
-                                    in Great<br> Numbers</h3>
+                                <h3 class="about-three__experience-title">Empresa Familiar<br> con Tradición</h3>
                                 <div class="about-three__experience">
                                     <div class="about-three__experience-count-shape"></div>
-                                    <p class="about-three__experience-sub-title">Years Of <br>Experience</p>
+                                    <p class="about-three__experience-sub-title">Años de <br>Experiencia</p>
                                     <div class="about-three__experience-count count-box">
-                                        <h3 class="count-text" data-stop="25" data-speed="1500">00</h3>
+                                        <h3 class="count-text" data-stop="10" data-speed="1500">00</h3>
                                     </div>
                                 </div>
                             </div>
@@ -217,34 +207,31 @@
         </div>
     </section>
     <!--About Three End -->
-
-
+    
     <!--How It Work Start -->
     <section class="how-it-work">
         <div class="section-shape-1"
             style="background-image: url({{ asset('assets/images/shapes/section-shape-1.png') }});"></div>
         <div class="container">
             <div class="section-title text-center sec-title-animation animation-style1">
-                <h2 class="section-title__title title-animation">How It Works</h2>
+                <h2 class="section-title__title title-animation">Tipos de Eventos</h2>
             </div>
             <div class="row">
                 <div class="col-xl-4 col-lg-4">
                     <div class="how-it-work__single">
                         <div class="how-it-work__count"></div>
-                        <h3 class="how-it-work__title">INTERRIOR DESIGN</h3>
-                        <p class="how-it-work__text">Mrittik Architects is a full-service design<br> firm providing
-                            ,
-                            master planning, urban<br> design,</p>
+                        <h3 class="how-it-work__title">BODAS</h3>
+                        <p class="how-it-work__text">Celebra el día más importante de tu vida<br> en nuestro hermoso 
+                            salón con estructura<br> colonial y rústica.</p>
                         <div class="how-it-work__icon">
                             <span class="icon-staircase"></span>
                         </div>
                     </div>
                     <div class="how-it-work__single">
                         <div class="how-it-work__count"></div>
-                        <h3 class="how-it-work__title">URBAN DESIGN</h3>
-                        <p class="how-it-work__text">Mrittik Architects is a full-service design<br> firm providing
-                            ,
-                            master planning, urban<br> design,</p>
+                        <h3 class="how-it-work__title">XV AÑOS</h3>
+                        <p class="how-it-work__text">Haz realidad el sueño de tu quinceañera<br> con una fiesta 
+                            inolvidable en nuestras<br> instalaciones.</p>
                         <div class="how-it-work__icon">
                             <span class="icon-plant"></span>
                         </div>
@@ -263,20 +250,18 @@
                 <div class="col-xl-4 col-lg-4">
                     <div class="how-it-work__single how-it-work__single-2">
                         <div class="how-it-work__count"></div>
-                        <h3 class="how-it-work__title">LANDSCAPE DESIGN</h3>
-                        <p class="how-it-work__text">Mrittik Architects is a full-service design<br> firm providing
-                            ,
-                            master planning, urban<br> design,</p>
+                        <h3 class="how-it-work__title">BAUTIZOS</h3>
+                        <p class="how-it-work__text">Celebra este momento especial en familia<br> con nuestro ambiente 
+                            acogedor y áreas<br> verdes para los niños.</p>
                         <div class="how-it-work__icon">
                             <span class="icon-vacuum-cleaner"></span>
                         </div>
                     </div>
                     <div class="how-it-work__single how-it-work__single-2">
                         <div class="how-it-work__count"></div>
-                        <h3 class="how-it-work__title">HOTEL DESIGN</h3>
-                        <p class="how-it-work__text">Mrittik Architects is a full-service design<br> firm providing
-                            ,
-                            master planning, urban<br> design,</p>
+                        <h3 class="how-it-work__title">EVENTOS EMPRESARIALES</h3>
+                        <p class="how-it-work__text">Organiza reuniones corporativas y eventos<br> de empresa en 
+                            nuestras instalaciones<br> profesionales.</p>
                         <div class="how-it-work__icon">
                             <span class="icon-workstations"></span>
                         </div>
@@ -286,7 +271,7 @@
         </div>
     </section>
     <!--How It Work End -->
-
+    
     <!--Services Three Start -->
     <section class="services-three">
         <div class="services-three__bg"
@@ -295,8 +280,8 @@
             style="background-image: url({{ asset('assets/images/shapes/section-shape-1.png') }});"></div>
         <div class="container">
             <div class="section-title text-center sec-title-animation animation-style1">
-                <h2 class="section-title__title title-animation">Where Inovation Meet <br>
-                    Interior Design</h2>
+                <h2 class="section-title__title title-animation">Nuestros Valores <br>
+                    Servicio de Excelencia</h2>
             </div>
             <div class="row">
                 <!--Services Three Single Start -->
@@ -305,16 +290,16 @@
                         <div class="services-three__icon">
                             <span class="icon-staircase"></span>
                         </div>
-                        <h3 class="services-three__title"><a href="{{ route('interior-design') }}"> Architecture & <br>
-                                Building </a></h3>
+                        <h3 class="services-three__title"><a href="{{ route('services') }}"> Respeto & <br>
+                                Integridad </a></h3>
                         <div class="services-three__img">
                             <img src="{{ asset('assets/images/services/services-3-1.jpg') }}" alt="">
                         </div>
-                        <p class="services-three__text">Our associate consultants specialize in a range of business
-                            areas. These include strategic planning, issues resolution, culture assessment, board
-                            effectiveness, retention.</p>
+                        <p class="services-three__text">Nuestros valores fundamentales nos guían en cada evento. 
+                            Tratamos a cada cliente con respeto, integridad y el compromiso de brindar un servicio 
+                            de excelencia.</p>
                         <div class="services-three__arrow">
-                            <a href="{{ route('interior-design') }}"><span class="icon-up-right-arrow-1"></span></a>
+                            <a href="{{ route('services') }}"><span class="icon-up-right-arrow-1"></span></a>
                         </div>
                     </div>
                 </div>
@@ -325,17 +310,15 @@
                         <div class="services-three__icon">
                             <span class="icon-workstations"></span>
                         </div>
-                        <h3 class="services-three__title"><a href="{{ route('evolve-space-designs') }}"> Evolve Space
-                                <br>
-                                Designs </a></h3>
+                        <h3 class="services-three__title"><a href="{{ route('services') }}"> Servicio & <br>
+                                Lealtad </a></h3>
                         <div class="services-three__img">
                             <img src="{{ asset('assets/images/services/services-3-2.jpg') }}" alt="">
                         </div>
-                        <p class="services-three__text">Our associate consultants specialize in a range of business
-                            areas. These include strategic planning, issues resolution, culture assessment, board
-                            effectiveness, retention.</p>
+                        <p class="services-three__text">Nuestro compromiso con el servicio y la lealtad hacia nuestros 
+                            clientes se refleja en cada detalle. Trabajamos con dedicación para superar expectativas.</p>
                         <div class="services-three__arrow">
-                            <a href="{{ route('evolve-space-designs') }}"><span class="icon-up-right-arrow-1"></span></a>
+                            <a href="{{ route('services') }}"><span class="icon-up-right-arrow-1"></span></a>
                         </div>
                     </div>
                 </div>
@@ -346,17 +329,15 @@
                         <div class="services-three__icon">
                             <span class="icon-plant"></span>
                         </div>
-                        <h3 class="services-three__title"><a href="{{ route('eden-home-styling') }}"> Eden Home <br>
-                                Styling
-                            </a></h3>
+                        <h3 class="services-three__title"><a href="{{ route('services') }}"> Empatía & <br>
+                                Paciencia </a></h3>
                         <div class="services-three__img">
                             <img src="{{ asset('assets/images/services/services-3-3.jpg') }}" alt="">
                         </div>
-                        <p class="services-three__text">Our associate consultants specialize in a range of business
-                            areas. These include strategic planning, issues resolution, culture assessment, board
-                            effectiveness, retention.</p>
+                        <p class="services-three__text">Entendemos la importancia de tu evento especial. Con empatía 
+                            y paciencia, te acompañamos en cada paso de la planificación para lograr el evento perfecto.</p>
                         <div class="services-three__arrow">
-                            <a href="{{ route('eden-home-styling') }}"><span class="icon-up-right-arrow-1"></span></a>
+                            <a href="{{ route('services') }}"><span class="icon-up-right-arrow-1"></span></a>
                         </div>
                     </div>
                 </div>
@@ -367,16 +348,15 @@
                         <div class="services-three__icon">
                             <span class="icon-vacuum-cleaner"></span>
                         </div>
-                        <h3 class="services-three__title"><a href="{{ route('harmony-interiors') }}"> Harmony Design <br>
-                                Interiors </a></h3>
+                        <h3 class="services-three__title"><a href="{{ route('services') }}"> Gratitud & <br>
+                                Responsabilidad </a></h3>
                         <div class="services-three__img">
                             <img src="{{ asset('assets/images/services/services-3-4.jpg') }}" alt="">
                         </div>
-                        <p class="services-three__text">Our associate consultants specialize in a range of business
-                            areas. These include strategic planning, issues resolution, culture assessment, board
-                            effectiveness, retention.</p>
+                        <p class="services-three__text">Agradecemos la confianza depositada en nosotros y asumimos 
+                            con responsabilidad el compromiso de hacer de tu evento una experiencia inolvidable.</p>
                         <div class="services-three__arrow">
-                            <a href="{{ route('harmony-interiors') }}"><span class="icon-up-right-arrow-1"></span></a>
+                            <a href="{{ route('services') }}"><span class="icon-up-right-arrow-1"></span></a>
                         </div>
                     </div>
                 </div>
@@ -385,7 +365,7 @@
         </div>
     </section>
     <!--Services Three End -->
-
+    
     <!-- Sliding Text Two Start -->
     <section class="sliding-text-two">
         <div class="section-shape-1"
@@ -393,28 +373,27 @@
         <div class="sliding-text-two__wrap">
             <ul class="sliding-text-two__list list-unstyled marquee_mode">
                 <li>
-                    <h2 data-hover="Interior Design" class="sliding-text-two__title">Interior Design</h2>
+                    <h2 data-hover="Salón Los Arcos" class="sliding-text-two__title">Salón Los Arcos</h2>
                 </li>
                 <li>
-                    <h2 data-hover="luxury homes" class="sliding-text-two__title">luxury homes</h2>
+                    <h2 data-hover="Eventos Familiares" class="sliding-text-two__title">Eventos Familiares</h2>
                 </li>
                 <li>
-                    <h2 data-hover="construction simulator" class="sliding-text-two__title">construction simulator
-                    </h2>
+                    <h2 data-hover="Celebraciones Especiales" class="sliding-text-two__title">Celebraciones Especiales</h2>
                 </li>
             </ul>
         </div>
     </section>
     <!-- Sliding Text Two End -->
-
+    
     <!--Projects Three Start-->
     <section class="projects-three">
         <div class="section-shape-1"
             style="background-image: url({{ asset('assets/images/shapes/section-shape-1.png') }});"></div>
         <div class="projects-three__wrapper">
             <div class="section-title text-center sec-title-animation animation-style1">
-                <h2 class="section-title__title title-animation">We Elevate Your Brand's <br>
-                    Daring Dedication.</h2>
+                <h2 class="section-title__title title-animation">Galería de Eventos <br>
+                    Momentos Inolvidables.</h2>
             </div>
             <div class="projects-three__carousel owl-theme owl-carousel">
                 <!--Projects Three Single Start-->
@@ -423,9 +402,9 @@
                         <div class="projects-three__img">
                             <img src="{{ asset('assets/images/project/projects-3-1.jpg') }}" alt="">
                             <div class="projects-three__content">
-                                <p class="projects-three__sub-title">Interior Design</p>
-                                <h4 class="projects-three__title"><a href="{{ route('project-details') }}">Neoclassical
-                                        Sofa</a></h4>
+                                <p class="projects-three__sub-title">Bodas</p>
+                                <h4 class="projects-three__title"><a href="{{ route('project-details') }}">Boda
+                                        Elegante</a></h4>
                             </div>
                             <div class="projects-three__arrow">
                                 <a href="{{ asset('assets/images/project/projects-3-1.jpg') }}" class="img-popup"><span
@@ -441,9 +420,9 @@
                         <div class="projects-three__img">
                             <img src="{{ asset('assets/images/project/projects-3-2.jpg') }}" alt="">
                             <div class="projects-three__content">
-                                <p class="projects-three__sub-title">Interior Design</p>
-                                <h4 class="projects-three__title"><a href="{{ route('project-details') }}">Living Room
-                                        Interior Design</a></h4>
+                                <p class="projects-three__sub-title">XV Años</p>
+                                <h4 class="projects-three__title"><a href="{{ route('project-details') }}">Fiesta de
+                                        XV Años</a></h4>
                             </div>
                             <div class="projects-three__arrow">
                                 <a href="{{ asset('assets/images/project/projects-3-2.jpg') }}" class="img-popup"><span
@@ -459,9 +438,9 @@
                         <div class="projects-three__img">
                             <img src="{{ asset('assets/images/project/projects-3-3.jpg') }}" alt="">
                             <div class="projects-three__content">
-                                <p class="projects-three__sub-title">Building</p>
-                                <h4 class="projects-three__title"><a href="{{ route('project-details') }}">Living Room
-                                        Remodeling</a></h4>
+                                <p class="projects-three__sub-title">Bautizos</p>
+                                <h4 class="projects-three__title"><a href="{{ route('project-details') }}">Celebración
+                                        Familiar</a></h4>
                             </div>
                             <div class="projects-three__arrow">
                                 <a href="{{ asset('assets/images/project/projects-3-3.jpg') }}" class="img-popup"><span
@@ -477,10 +456,9 @@
                         <div class="projects-three__img">
                             <img src="{{ asset('assets/images/project/projects-3-4.jpg') }}" alt="">
                             <div class="projects-three__content">
-                                <p class="projects-three__sub-title">Architecture</p>
-                                <h4 class="projects-three__title"><a href="{{ route('project-details') }}">Restaurant
-                                        Interior
-                                        Design</a></h4>
+                                <p class="projects-three__sub-title">Empresarial</p>
+                                <h4 class="projects-three__title"><a href="{{ route('project-details') }}">Evento
+                                        Corporativo</a></h4>
                             </div>
                             <div class="projects-three__arrow">
                                 <a href="{{ asset('assets/images/project/projects-3-4.jpg') }}" class="img-popup"><span
@@ -496,9 +474,9 @@
                         <div class="projects-three__img">
                             <img src="{{ asset('assets/images/project/projects-3-1.jpg') }}" alt="">
                             <div class="projects-three__content">
-                                <p class="projects-three__sub-title">Interior Design</p>
-                                <h4 class="projects-three__title"><a href="{{ route('project-details') }}">Neoclassical
-                                        Sofa</a></h4>
+                                <p class="projects-three__sub-title">Bodas</p>
+                                <h4 class="projects-three__title"><a href="{{ route('project-details') }}">Boda
+                                        Elegante</a></h4>
                             </div>
                             <div class="projects-three__arrow">
                                 <a href="{{ asset('assets/images/project/projects-3-1.jpg') }}" class="img-popup"><span
@@ -514,9 +492,9 @@
                         <div class="projects-three__img">
                             <img src="{{ asset('assets/images/project/projects-3-2.jpg') }}" alt="">
                             <div class="projects-three__content">
-                                <p class="projects-three__sub-title">Interior Design</p>
-                                <h4 class="projects-three__title"><a href="{{ route('project-details') }}">Living Room
-                                        Interior Design</a></h4>
+                                <p class="projects-three__sub-title">XV Años</p>
+                                <h4 class="projects-three__title"><a href="{{ route('project-details') }}">Fiesta de
+                                        XV Años</a></h4>
                             </div>
                             <div class="projects-three__arrow">
                                 <a href="{{ asset('assets/images/project/projects-3-2.jpg') }}" class="img-popup"><span
@@ -532,9 +510,9 @@
                         <div class="projects-three__img">
                             <img src="{{ asset('assets/images/project/projects-3-3.jpg') }}" alt="">
                             <div class="projects-three__content">
-                                <p class="projects-three__sub-title">Building</p>
-                                <h4 class="projects-three__title"><a href="{{ route('project-details') }}">Living Room
-                                        Remodeling</a></h4>
+                                <p class="projects-three__sub-title">Bautizos</p>
+                                <h4 class="projects-three__title"><a href="{{ route('project-details') }}">Celebración
+                                        Familiar</a></h4>
                             </div>
                             <div class="projects-three__arrow">
                                 <a href="{{ asset('assets/images/project/projects-3-3.jpg') }}" class="img-popup"><span
@@ -550,10 +528,9 @@
                         <div class="projects-three__img">
                             <img src="{{ asset('assets/images/project/projects-3-4.jpg') }}" alt="">
                             <div class="projects-three__content">
-                                <p class="projects-three__sub-title">Architecture</p>
-                                <h4 class="projects-three__title"><a href="{{ route('project-details') }}">Restaurant
-                                        Interior
-                                        Design</a></h4>
+                                <p class="projects-three__sub-title">Empresarial</p>
+                                <h4 class="projects-three__title"><a href="{{ route('project-details') }}">Evento
+                                        Corporativo</a></h4>
                             </div>
                             <div class="projects-three__arrow">
                                 <a href="{{ asset('assets/images/project/projects-3-4.jpg') }}" class="img-popup"><span
@@ -567,17 +544,17 @@
         </div>
     </section>
     <!--Projects Three End-->
-
+    
     <!--Before And After Start -->
     <section class="before-and-after">
         <div class="section-shape-1"
             style="background-image: url({{ asset('assets/images/shapes/section-shape-1.png') }});"></div>
         <div class="container">
             <div class="section-title text-center sec-title-animation animation-style1">
-                <h2 class="section-title__title title-animation">Interior Design Conversion</h2>
+                <h2 class="section-title__title title-animation">Nuestra Misión y Visión</h2>
             </div>
-            <p class="before-and-after__text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.<br> Lorem Ipsum has been the industry's standard dummy text.</p>
+            <p class="before-and-after__text">Consolidarse como el salón de eventos que brinda instalaciones 
+                acondicionadas,<br> suficientes y adecuadas con seguridad y diversidad.</p>
             <div class="before-and-after__img-box">
                 <div class="before-after">
                     <div class="before-after-twentytwenty" id="wrinkle-before-after">
@@ -589,7 +566,7 @@
         </div>
     </section>
     <!--Before And After End -->
-
+    
     <!-- Testimonial One Start -->
     <section class="testimonial-one">
         <div class="section-shape-1"
@@ -597,7 +574,7 @@
         <div class="container">
             <div class="section-title text-center sec-title-animation animation-style2">
                 <h2 class="section-title__title title-animation">
-                    What Our Clients Say
+                    Lo que Dicen Nuestros Clientes
                 </h2>
             </div>
             <div class="testimonial-one__top">
@@ -612,14 +589,12 @@
                                 </div>
                                 <div class="testimonial-one__client-content">
                                     <h5 class="testimonial-one__client-name"><a
-                                            href="{{ route('testimonials') }}">Madriya
-                                            Merin</a></h5>
-                                    <p class="testimonial-one__client-sub-title">Spatial Design</p>
+                                            href="{{ route('testimonials') }}">María González</a></h5>
+                                    <p class="testimonial-one__client-sub-title">Madre de Quinceañera</p>
                                 </div>
                             </div>
-                            <p class="testimonial-one__text">Arrangements are made to transport cargo by sea
-                                to meet customers’ international transpor
-                                tation needs.</p>
+                            <p class="testimonial-one__text">Excelente servicio y atención. El salón es hermoso y el 
+                                personal muy profesional. La fiesta de XV años fue perfecta.</p>
                             <div class="testimonial-one__rating-and-review">
                                 <ul class="list-unstyled testimonial-one__rating">
                                     <li>
@@ -648,7 +623,7 @@
                                         </div>
                                     </li>
                                 </ul>
-                                <p class="testimonial-one__review">4.7/6 on Disign</p>
+                                <p class="testimonial-one__review">4.7/5 Excelente</p>
                             </div>
                         </div>
                     </div>
@@ -662,14 +637,13 @@
                                         alt="">
                                 </div>
                                 <div class="testimonial-one__client-content">
-                                    <h5 class="testimonial-one__client-name"><a href="{{ route('testimonials') }}">Mike
-                                            Hardson</a></h5>
-                                    <p class="testimonial-one__client-sub-title">Spatial Design</p>
+                                    <h5 class="testimonial-one__client-name"><a href="{{ route('testimonials') }}">Roberto
+                                            Martínez</a></h5>
+                                    <p class="testimonial-one__client-sub-title">Novio</p>
                                 </div>
                             </div>
-                            <p class="testimonial-one__text">Arrangements are made to transport cargo by sea
-                                to meet customers’ international transpor
-                                tation needs.</p>
+                            <p class="testimonial-one__text">Nuestra boda fue un sueño hecho realidad. Las instalaciones 
+                                son preciosas y la atención de primera calidad.</p>
                             <div class="testimonial-one__rating-and-review">
                                 <ul class="list-unstyled testimonial-one__rating">
                                     <li>
@@ -698,7 +672,7 @@
                                         </div>
                                     </li>
                                 </ul>
-                                <p class="testimonial-one__review">4.7/6 on Disign</p>
+                                <p class="testimonial-one__review">4.7/5 Excelente</p>
                             </div>
                         </div>
                     </div>
@@ -712,14 +686,13 @@
                                         alt="">
                                 </div>
                                 <div class="testimonial-one__client-content">
-                                    <h5 class="testimonial-one__client-name"><a href="{{ route('testimonials') }}">Marlon
-                                            Samuls</a></h5>
-                                    <p class="testimonial-one__client-sub-title">Spatial Design</p>
+                                    <h5 class="testimonial-one__client-name"><a href="{{ route('testimonials') }}">Ana
+                                            Rodríguez</a></h5>
+                                    <p class="testimonial-one__client-sub-title">Organizadora</p>
                                 </div>
                             </div>
-                            <p class="testimonial-one__text">Arrangements are made to transport cargo by sea
-                                to meet customers’ international transpor
-                                tation needs.</p>
+                            <p class="testimonial-one__text">Como organizadora de eventos, puedo decir que Los Arcos es 
+                                uno de los mejores salones de la zona.</p>
                             <div class="testimonial-one__rating-and-review">
                                 <ul class="list-unstyled testimonial-one__rating">
                                     <li>
@@ -748,7 +721,7 @@
                                         </div>
                                     </li>
                                 </ul>
-                                <p class="testimonial-one__review">4.7/6 on Disign</p>
+                                <p class="testimonial-one__review">4.7/5 Excelente</p>
                             </div>
                         </div>
                     </div>
@@ -766,14 +739,13 @@
                                         alt="">
                                 </div>
                                 <div class="testimonial-one__client-content">
-                                    <h5 class="testimonial-one__client-name"><a href="{{ route('testimonials') }}">Marco
-                                            Jansen</a></h5>
-                                    <p class="testimonial-one__client-sub-title">Spatial Design</p>
+                                    <h5 class="testimonial-one__client-name"><a href="{{ route('testimonials') }}">Luis
+                                            Hernández</a></h5>
+                                    <p class="testimonial-one__client-sub-title">Padre de Familia</p>
                                 </div>
                             </div>
-                            <p class="testimonial-one__text">Arrangements are made to transport cargo by sea
-                                to meet customers’ international transpor
-                                tation needs.</p>
+                            <p class="testimonial-one__text">Celebramos el bautizo de nuestro hijo en Los Arcos y todo 
+                                salió perfecto. El ambiente familiar hizo la diferencia.</p>
                             <div class="testimonial-one__rating-and-review">
                                 <ul class="list-unstyled testimonial-one__rating">
                                     <li>
@@ -802,7 +774,7 @@
                                         </div>
                                     </li>
                                 </ul>
-                                <p class="testimonial-one__review">4.7/6 on Disign</p>
+                                <p class="testimonial-one__review">4.7/5 Excelente</p>
                             </div>
                         </div>
                     </div>
@@ -816,14 +788,13 @@
                                         alt="">
                                 </div>
                                 <div class="testimonial-one__client-content">
-                                    <h5 class="testimonial-one__client-name"><a href="{{ route('testimonials') }}">Mithel
-                                            Mars</a></h5>
-                                    <p class="testimonial-one__client-sub-title">Spatial Design</p>
+                                    <h5 class="testimonial-one__client-name"><a href="{{ route('testimonials') }}">Carmen
+                                            López</a></h5>
+                                    <p class="testimonial-one__client-sub-title">Cliente Frecuente</p>
                                 </div>
                             </div>
-                            <p class="testimonial-one__text">Arrangements are made to transport cargo by sea
-                                to meet customers’ international transpor
-                                tation needs.</p>
+                            <p class="testimonial-one__text">He celebrado varios eventos familiares en Los Arcos. 
+                                Siempre recibimos un trato cordial y profesional.</p>
                             <div class="testimonial-one__rating-and-review">
                                 <ul class="list-unstyled testimonial-one__rating">
                                     <li>
@@ -852,7 +823,7 @@
                                         </div>
                                     </li>
                                 </ul>
-                                <p class="testimonial-one__review">4.7/6 on Disign</p>
+                                <p class="testimonial-one__review">4.7/5 Excelente</p>
                             </div>
                         </div>
                     </div>
@@ -862,15 +833,15 @@
         </div>
     </section>
     <!-- Testimonial One End -->
-
+    
     <!--Team One Start -->
     <section class="team-one">
         <div class="section-shape-1"
             style="background-image: url({{ asset('assets/images/shapes/section-shape-1.png') }});"></div>
         <div class="container">
             <div class="section-title text-center sec-title-animation animation-style1">
-                <h2 class="section-title__title title-animation">Where Inovation Meet <br>
-                    Interior Design</h2>
+                <h2 class="section-title__title title-animation">Nuestro Equipo <br>
+                    Profesionales a tu Servicio</h2>
             </div>
             <div class="row">
                 <!--Team One Single Start -->
@@ -882,12 +853,11 @@
                         <div class="team-one__content">
                             <div class="team-one__social">
                                 <a href="#"><span class="fab fa-facebook-f"></span></a>
-                                <a href="#"><span class="fab fa-vine"></span></a>
-                                <a href="#"><span class="fab fa-twitter"></span></a>
                                 <a href="#"><span class="fab fa-instagram"></span></a>
+                                <a href="#"><span class="fab fa-whatsapp"></span></a>
                             </div>
-                            <p class="team-one__sub-title">Teka dibe bacchu</p>
-                            <h3 class="team-one__title"><a href="{{ route('team-details') }}">Jonathan S. Wilcox</a></h3>
+                            <p class="team-one__sub-title">Fundador y Director</p>
+                            <h3 class="team-one__title"><a href="{{ route('team-details') }}">Guido Vara Moreno</a></h3>
                         </div>
                     </div>
                 </div>
@@ -901,12 +871,11 @@
                         <div class="team-one__content">
                             <div class="team-one__social">
                                 <a href="#"><span class="fab fa-facebook-f"></span></a>
-                                <a href="#"><span class="fab fa-vine"></span></a>
-                                <a href="#"><span class="fab fa-twitter"></span></a>
                                 <a href="#"><span class="fab fa-instagram"></span></a>
+                                <a href="#"><span class="fab fa-whatsapp"></span></a>
                             </div>
-                            <p class="team-one__sub-title">Teka dibe bacchu</p>
-                            <h3 class="team-one__title"><a href="{{ route('team-details') }}">Jessica Brown</a></h3>
+                            <p class="team-one__sub-title">Co-fundadora</p>
+                            <h3 class="team-one__title"><a href="{{ route('team-details') }}">Paula Contreras Vega</a></h3>
                         </div>
                     </div>
                 </div>
@@ -920,12 +889,11 @@
                         <div class="team-one__content">
                             <div class="team-one__social">
                                 <a href="#"><span class="fab fa-facebook-f"></span></a>
-                                <a href="#"><span class="fab fa-vine"></span></a>
-                                <a href="#"><span class="fab fa-twitter"></span></a>
                                 <a href="#"><span class="fab fa-instagram"></span></a>
+                                <a href="#"><span class="fab fa-whatsapp"></span></a>
                             </div>
-                            <p class="team-one__sub-title">Teka dibe bacchu</p>
-                            <h3 class="team-one__title"><a href="{{ route('team-details') }}">Jonathan Trot</a></h3>
+                            <p class="team-one__sub-title">Coordinador de Eventos</p>
+                            <h3 class="team-one__title"><a href="{{ route('team-details') }}">Alex Vara Contreras</a></h3>
                         </div>
                     </div>
                 </div>
@@ -934,14 +902,14 @@
         </div>
     </section>
     <!--Team One End -->
-
+    
     <!-- Blog One Start -->
     <section class="blog-one blog-three">
         <div class="section-shape-1"
             style="background-image: url({{ asset('assets/images/shapes/section-shape-1.png') }});"></div>
         <div class="container">
             <div class="section-title text-center sec-title-animation animation-style1">
-                <h2 class="section-title__title title-animation">Latest News & Articles From <br> The Blog Posts
+                <h2 class="section-title__title title-animation">Consejos y Tips para <br> Eventos Perfectos
                 </h2>
             </div>
             <div class="row">
@@ -957,18 +925,17 @@
                             </div>
                             <div class="blog-one__date-and-title-box">
                                 <div class="blog-one__date">
-                                    <h3>23</h3>
-                                    <p>Sep 2024</p>
+                                    <h3>15</h3>
+                                    <p>Ene 2024</p>
                                 </div>
                                 <div class="blog-one__title-box">
-                                    <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">Top 10 Modern
-                                            Building
+                                    <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">Cómo Planear la Boda
                                             <br>
-                                            Design in Califronia, USA</a></h3>
+                                            Perfecta en Los Arcos</a></h3>
                                 </div>
                             </div>
                             <div class="blog-one__btn-box">
-                                <a href="{{ route('blog-details') }}" class="thm-btn blog-one__btn">More Details <span
+                                <a href="{{ route('blog-details') }}" class="thm-btn blog-one__btn">Leer Más <span
                                         class="icon-up-right-arrow"></span> </a>
                             </div>
                         </div>
@@ -987,17 +954,16 @@
                             </div>
                             <div class="blog-one__date-and-title-box">
                                 <div class="blog-one__date">
-                                    <h3>13</h3>
-                                    <p>Sep 2024</p>
+                                    <h3>22</h3>
+                                    <p>Ene 2024</p>
                                 </div>
                                 <div class="blog-one__title-box">
-                                    <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">It is a long
-                                            established
-                                            fact <br> that a reader will</a></h3>
+                                    <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">Ideas de Decoración
+                                            <br> para XV Años Inolvidables</a></h3>
                                 </div>
                             </div>
                             <div class="blog-one__btn-box">
-                                <a href="{{ route('blog-details') }}" class="thm-btn blog-one__btn">More Details <span
+                                <a href="{{ route('blog-details') }}" class="thm-btn blog-one__btn">Leer Más <span
                                         class="icon-up-right-arrow"></span> </a>
                             </div>
                         </div>
@@ -1016,18 +982,17 @@
                             </div>
                             <div class="blog-one__date-and-title-box">
                                 <div class="blog-one__date">
-                                    <h3>04</h3>
-                                    <p>Sep 2024</p>
+                                    <h3>28</h3>
+                                    <p>Ene 2024</p>
                                 </div>
                                 <div class="blog-one__title-box">
-                                    <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">Lorem Ipsum is
-                                            simply
+                                    <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">Guía para Elegir el Menú
                                             <br>
-                                            dummy text of the printing</a></h3>
+                                            Perfecto para tu Evento</a></h3>
                                 </div>
                             </div>
                             <div class="blog-one__btn-box">
-                                <a href="{{ route('blog-details') }}" class="thm-btn blog-one__btn">More Details <span
+                                <a href="{{ route('blog-details') }}" class="thm-btn blog-one__btn">Leer Más <span
                                         class="icon-up-right-arrow"></span> </a>
                             </div>
                         </div>
@@ -1038,6 +1003,6 @@
         </div>
     </section>
     <!-- Blog One End -->
-
+    
     <x-footer.footerStyleOne />
 @endsection

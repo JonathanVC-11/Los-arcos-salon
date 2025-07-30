@@ -17,32 +17,10 @@
                                             <a href="#home">Home</a>
                                             <ul>
                                                 <li><a href="{{ route('index-one-page') }}">One Page Styles One</a></li>
-                                                <li><a href="{{ route('index2-one-page') }}">One Page Styles Two</a></li>
-                                                <li>
-                                                    <a href="{{ route('index3-one-page') }}">One Page Styles Three</a>
-                                                </li>
-                                                <li>
-                                                    <a href="{{ route('index4-one-page') }}">One Page Styles Four</a>
-                                                </li>
                                             </ul>
                                         </li>
                                         <li class="scrollToLink">
                                             <a href="#about">About Us</a>
-                                        </li>
-                                        <li class="scrollToLink">
-                                            <a href="#services">Services</a>
-                                        </li>
-                                        <li class="scrollToLink">
-                                            <a href="#projects">projects</a>
-                                        </li>
-                                        <li class="scrollToLink">
-                                            <a href="#testimonial">Testimonial</a>
-                                        </li>
-                                        <li class="scrollToLink">
-                                            <a href="#video">Video</a>
-                                        </li>
-                                        <li class="scrollToLink">
-                                            <a href="#blog">Blog</a>
                                         </li>
                                         <li class="scrollToLink">
                                             <a href="#contact">Contact</a>

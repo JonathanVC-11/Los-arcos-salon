@@ -5,7 +5,7 @@
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="{{ route('index') }}" aria-label="logo image"><img src="{{ asset('assets/images/resources/logo-4.png') }}" width="150"
+                <a href="{{ route('index') }}" aria-label="logo image"><img src="{{ asset('assets/images/resources/logo-1.png') }}" width="150"
                         alt="" /></a>
             </div>
             <!-- /.logo-box -->
@@ -15,17 +15,17 @@
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:needhelp@packageName__.com">needhelp@tecture.com</a>
+                    <a href="mailto:alexvara@live.com.mx">alexvara@live.com.mx</a>
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>
-                    <a href="tel:666-888-0000">666 888 0000</a>
+                    <a href="tel:713 100 0994">713 100 0994</a>
                 </li>
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__top">
                 <div class="mobile-nav__social">
                     <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-facebook-square"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100054229521920" class="fab fa-facebook-square"></a>
                     <a href="#" class="fab fa-pinterest-p"></a>
                     <a href="#" class="fab fa-instagram"></a>
                 </div><!-- /.mobile-nav__social -->
